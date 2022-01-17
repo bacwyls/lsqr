@@ -1,7 +1,7 @@
-:~  title+'lsqr'
+:~  title+'landscapeQR'
     info+'QR for landscape profiles'
-    color+0xff.ffff
-    image+'/apps/lsqr/img/thumb.png'
+    color+0x2e.4347
+    image+'https://i.imgur.com/6m7kU93.png'
     base+'lsqr'
     glob-ames+[~dabbus-fabbus-bacwyl-samweg 0v0]
     version+[0 0 1]

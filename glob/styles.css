@@ -7,6 +7,7 @@ body {
 :root {
   --bg: rgb(26,26,26);
   --fg: rgba(255,255,255,.85);
+  --special: #ff9999;
 }
 
 @font-face {
@@ -23,6 +24,11 @@ body {
   text-align: center;
 }
 
+h1 span:hover {
+  color: var(--special);
+  cursor:default;
+}
+
 nav {
   margin-bottom:2em;
 }
@@ -34,7 +40,7 @@ nav a {
 }
 
 nav a.active {
-  color:#ff9999;
+  color:var(--special);
 }
 
 #qrcode {
@@ -48,6 +54,8 @@ nav a.active {
 
 #qrcode img {
   margin:auto;
+  padding:2em;
+  padding-top:1em;
 }
 
 #patp {
