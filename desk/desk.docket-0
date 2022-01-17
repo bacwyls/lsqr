@@ -2,7 +2,7 @@
     info+'QR for landscape profiles'
     color+0xff.ffff
     image+'/apps/lsqr/img/thumb.png'
-    base+'roshambo'
+    base+'lsqr'
     glob-ames+[~dabbus-fabbus-bacwyl-samweg 0v0]
     version+[0 0 1]
     website+'https://github.com/bacwyls/lsqr'

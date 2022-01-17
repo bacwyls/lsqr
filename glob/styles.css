@@ -45,3 +45,8 @@ nav a {
   margin:1em;
   color:var(--fg);
 }
+
+nav a.active {
+  color:red;
+}
+

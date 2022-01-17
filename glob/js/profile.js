@@ -1,5 +1,5 @@
 $(document).ready ( function(){
-  var ship = window.ship;
+  var ship = "~" + window.ship;
   var qrcode = new QRCode(document.getElementById("qrcode"), {
 	text: ship,
 	width: 128,
