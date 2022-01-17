@@ -1,0 +1,47 @@
+@media (max-width: 700px) {
+body {
+  font-size:2.5vmax !important;
+}
+
+}
+:root {
+  --bg: rgb(26,26,26);
+  --fg: rgba(255,255,255,.85);
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url("/apps/landscape/fonts/inter-regular.woff2") format('woff');
+}
+
+body {
+  font-family: myfont;
+  background-color: var(--bg);
+  color: var(--fg);
+  font-size: 1.5vmax;
+  margin: auto;
+  text-align: center;
+}
+
+#qrcode {
+  padding:1em;
+  border-radius:1em;
+  background-color:white;
+  display:inline-block;
+  margin:1em;
+}
+
+#qrcode img {
+  margin:auto;
+}
+
+#patp {
+  display:inline-block;
+  margin-bottom:1em;
+  color:var(--bg);
+}
+
+nav a {
+  margin:1em;
+  color:var(--fg);
+}

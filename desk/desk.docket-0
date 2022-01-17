@@ -1,0 +1,11 @@
+:~  title+'lsqr'
+    info+'QR for landscape profiles'
+    color+0xff.ffff
+    image+'/apps/lsqr/img/thumb.png'
+    base+'roshambo'
+    glob-ames+[~dabbus-fabbus-bacwyl-samweg 0v0]
+    version+[0 0 1]
+    website+'https://github.com/bacwyls/lsqr'
+    license+'MIT'
+==
+
