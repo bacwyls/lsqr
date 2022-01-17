@@ -23,12 +23,27 @@ body {
   text-align: center;
 }
 
+nav {
+  margin-bottom:2em;
+}
+
+nav a {
+  margin:1em;
+  color:var(--fg);
+  text-decoration:none;
+}
+
+nav a.active {
+  color:#ff9999;
+}
+
 #qrcode {
   padding:1em;
   border-radius:1em;
   background-color:white;
   display:inline-block;
-  margin:1em;
+  margin:auto;
+  max-width:80%;
 }
 
 #qrcode img {
@@ -41,12 +56,9 @@ body {
   color:var(--bg);
 }
 
-nav a {
-  margin:1em;
-  color:var(--fg);
-}
-
-nav a.active {
-  color:red;
+video {
+  margin:auto;
+  display:inline-block;
+  max-width:90%;
 }
 
