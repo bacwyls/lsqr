@@ -7,7 +7,7 @@ body {
 :root {
   --bg: rgb(26,26,26);
   --fg: rgba(255,255,255,.85);
-  --special: #ff9999;
+  --special: #ff9900;
 }
 
 @font-face {
@@ -68,5 +68,14 @@ video {
   margin:auto;
   display:inline-block;
   max-width:90%;
+}
+
+#found-patp-w {
+  background-color:var(--fg);
+  color:var(--bg);
+  display:inline-block;
+  padding:3em;
+  z-index=2;
+  border-radius:1em;
 }
 
